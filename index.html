@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>51lianying Test Project Update</title>
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/css/jquery.jsonview.css">
+        <style type="text/css">
+            /*.hide {display: none;}*/
+            html, body {height: 100%; background: #6b6b6b;  background: url(libs/images/bg.jpg); background-attachment: fixed;}
+            .wrapper {height: 100%;}
+            .console-msg {border-radius: 3px;}
+            .box {background: #997471; border:none;}
+            .box:hover {background: #fff; transition: opacity 0.3s, background-color 0.8s;}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="container">
+            <div class="page-header">
+            <img src="http://s.51lianying.com/images/biz/common/biz_logo.png">
+            </div>
+        </div>
+        <div class="container v1">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>admin project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="admin" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>biz project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="biz" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>mobi project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="mobi" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>wap project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="wap" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>weixin project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="weixin" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>www project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="www" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>ZC-Project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="zc" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail box">
+                        <div><pre class="js-console-msg hide"></pre></div>
+                        <div class="caption">
+                            <h4>XDS-Project</h4>
+                            <p>
+                                <a href="#" class="btn btn-primary btn-sm project" data-project="xds" role="button">UpdateIt!</a>
+                                <a href="#" class="btn btn-default btn-sm project-expand hide" role="button">ExpandIt</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="libs/js/jquery.min.js"></script>
+    <!-- <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <script src="libs/js/jquery.jsonview.js"></script>
+    <script src="libs/js/app.js"></script>
+</html>
